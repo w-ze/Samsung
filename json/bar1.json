@@ -1,0 +1,206 @@
+{
+	"classify001": {
+		"name": "智能手机",
+		"type": [
+			{
+				"name": "Galaxy S系列"
+			},
+			{
+				"name": "Galaxy Note系列"
+			},
+			{
+				"name": "Galaxy A系列"
+			},
+			{
+				"name": "三星 W系列"
+			}
+		],
+		"list": [
+			{
+				"id": "shop1-1",
+				"name": "Galaxy S10+",
+				"src": "img/bar1-1.jpg"
+			},
+			{
+				"id": "shop1-2",
+				"name": "Galaxy S10",
+				"src": "img/bar1-2.jpg"
+			},
+			{
+				"id": "shop1-3",
+				"name": "Galaxy A70",
+				"src": "img/bar1-3.jpg"
+			},
+			{
+				"id": "shop1-4",
+				"name": "Galaxy A60",
+				"src": "img/bar1-4.jpg"
+			}
+		]
+	},
+	"classify002": {
+		"name": "可穿戴设备",
+		"type": [
+			{
+				"name": " "
+			},
+			{
+				"name": " "
+			},
+			{
+				"name": " "
+			},
+			{
+				"name": " "
+			}
+		],
+		"list": [
+			{
+				"id": "shop2-1",
+				"name": "Galaxy Watch Active",
+				"src": "img/bar2-1.jpg"
+			},
+			{
+				"id": "shop2-2",
+				"name": "Samsung Galaxy Buds",
+				"src": "img/bar2-2.jpg"
+			},
+			{
+				"id": "shop2-3",
+				"name": "Samsung Galaxy Watch LTE版 46mm钛泽银",
+				"src": "img/bar2-3.jpg"
+			},
+			{
+				"id": "shop2-4",
+				"name": "Samsung Galaxy Watch 蓝牙版46mm钛泽银",
+				"src": "img/bar2-4.jpg"
+			}
+		]
+	},
+	"classify003": {
+		"name": "个人电脑",
+		"type": [
+			{
+				"name": "笔记本电脑",
+				"list" :[
+					"笔记本电脑",
+					"玄龙MR",
+					"玄龙骑士",
+					"Notebook 9",
+					"Notebook 7"
+				]
+			},
+			{
+				"name": "平板电脑",
+				"list" :[
+					"Galaxy Tab S",
+					"Galaxy Tab A",
+					"盖乐世 Tab E"
+				]
+			}
+		],
+		"list": [
+			{
+				"id": "shop3-1",
+				"name": "Galaxy Tab S4 4G",
+				"src": "img/bar3-1.jpg"
+			},
+			{
+				"id": "shop3-2",
+				"name": "Galaxy Tab S5e WLAN",
+				"src": "img/bar3-2.jpg"
+			},
+			{
+				"id": "shop3-3",
+				"name": "三星笔记本星曜 930XBE-K03",
+				"src": "img/bar3-3.jpg"
+			},
+			{
+				"id": "shop3-4",
+				"name": "三星笔记本星曜Pen Pro 930SBE-K01",
+				"src": "img/bar3-4.jpg"
+			}
+		]
+	},
+	"classify004": {
+		"name": "智能家居",
+		"type": [
+			{
+				"name": "健康生活类"
+			},
+			{
+				"name": "便携生活类"
+			},
+			{
+				"name": "健康生活类"
+			},
+			{
+				"name": "时尚酷玩类"
+			}
+		],
+		"list": [
+			{
+				"id": "shop4-1",
+				"name": "智能网关",
+				"src": "img/bar4-1.jpg"
+			},
+			{
+				"id": "shop4-2",
+				"name": "智能插座",
+				"src": "img/bar4-2.jpg"
+			},
+			{
+				"id": "shop4-3",
+				"name": "智能空气检测仪",
+				"src": "img/bar4-3.jpg"
+			},
+			{
+				"id": "shop4-4",
+				"name": "智能遥控器",
+				"src": "img/bar4-4.jpg"
+			}
+		]
+	},
+	"classify005": {
+		"name": "配件",
+		"type": [
+			{
+				"name": "保护类"
+			},
+			{
+				"name": "电源类"
+			},
+			{
+				"name": "音频类"
+			},
+			{
+				"name": "存储类"
+			},
+			{
+				"name": "连接类"
+			}
+		],
+		"list": [
+			{
+				"id": "shop5-1",
+				"name": "Galaxy S10+ 硅胶保护壳",
+				"src": "img/bar5-1.jpg"
+			},
+			{
+				"id": "shop5-2",
+				"name": "Galaxy S10 LED智能背光保护壳",
+				"src": "img/bar5-2.jpg"
+			},
+			{
+				"id": "shop5-3",
+				"name": "三星 旅行充电器 (Type C)",
+				"src": "img/bar5-3.jpg"
+			},
+			{
+				"id": "shop5-4",
+				"name": "Galaxy S10+ 立式保护壳",
+				"src": "img/bar5-4.jpg"
+			}
+		]
+	}
+}

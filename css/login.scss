@@ -1,0 +1,170 @@
+main {
+    padding-bottom: 120px;
+    background: #f7f7f7;
+    overflow: hidden;
+
+    .main {
+        width: 50%;
+        margin: 0 auto;
+
+
+        .register {
+            margin-top: 50px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 1px 1px 3px 3px #d4d3d3;
+            padding: 60px;
+
+            .register1 {
+                h4 {
+                    font-size: 26px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+
+                h5 {
+                    font-weight: normal;
+                    font-size: 18px;
+                    padding-bottom: 20px;
+                }
+
+                div {
+                    position: relative;
+                    margin: 50px 0;
+                }
+
+                label {
+                    top: -5px;
+                    left: auto;
+                    position: absolute;
+                    color: #767676;
+                    font-size: 20px;
+                }
+
+                input {
+                    outline: none;
+                    height: 30px;
+                    border: none;
+                    border-bottom: 1px solid #ddd;
+                    width: 100%;
+                    line-height: 30px;
+                    font-size: 20px;
+                }
+
+                .remember{
+                    width: 22px;
+                    height: 22px;
+                }
+
+                img{
+                    width: 100%;
+                }
+
+                span {
+                    color: #d0021b;
+                    font-size: 12px;
+                }
+
+                .verification {
+                    margin-top: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                    background-color: #fff;
+                    display: inline-block;
+                    width: 50%;
+                    padding: 8px 0;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    color: #000;
+                    border: 1px solid #000;
+                    margin-bottom: 20px;
+                }
+                
+                .verification1{
+                    margin-top: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                    background-color: #fff;
+                    display: inline-block;
+                    width: 50%;
+                    padding: 8px 0;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    color: #000;
+                    border: 1px solid #eee;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 18px;
+                    padding-top: 30px;
+                }
+
+                a {
+                    text-decoration: underline;
+                    color: #1428a0;
+                    font-weight: bold;
+                }
+                .code{
+                    overflow: hidden;
+                    div{
+                        margin: 0;
+                        width: 50%;
+                        height: 50px; 
+                        background: url("../img/code-bg.png") repeat-x;
+                        float:left;
+                        text-align: center;
+                        font-size: 36px;
+                        line-height: 50px;
+                        font-weight: 900;
+                    }
+                    img{
+                        width: 30px;
+                        padding: 10px 0 0 10px;
+                    }
+                }
+                .btn{
+                    text-align: center;
+                    span{
+                        color: #333;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background: #ebebeb;
+    overflow: hidden;
+    height: inherit;
+
+    .footer {
+        width: 70%;
+        margin: 0 auto;
+
+        ul {
+            float: left;
+
+            li {
+                float: left;
+                line-height: 48px;
+                margin: 0 10px;
+
+                a {
+                    color: #1428a0;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        p {
+            float: right;
+            font-size: 12px;
+            color: #767676;
+            line-height: 48px;
+        }
+    }
+
+}

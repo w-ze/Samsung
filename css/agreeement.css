@@ -1,0 +1,142 @@
+main {
+  padding-bottom: 120px;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+main .left {
+  float: left;
+  width: 50%;
+}
+
+main .left .left1 {
+  margin-left: 25%;
+}
+
+main .left .left1 h6 {
+  padding-top: 60px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main .left .left1 h1 {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.125;
+}
+
+main .left .left1 a {
+  color: #1428a0;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main .right {
+  width: 50%;
+  float: left;
+}
+
+main .right .rightup {
+  width: 71%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+main .right .rightup p {
+  padding: 120px 0 30px;
+}
+
+main .right .rightup a {
+  color: #1428a0;
+  text-decoration: underline;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+main .right .rightup span {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+main .right .rightup input {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+main .right .rightdown {
+  width: 70%;
+}
+
+main .right .rightdown span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main .right .rightdown input {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+main .right .rightdown .agree {
+  margin-top: 60px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #1428a0;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 8px;
+  opacity: .4;
+}
+
+main .right .rightdown .reject {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 8px;
+}
+
+footer {
+  background: #ebebeb;
+  overflow: hidden;
+  height: inherit;
+}
+
+footer .footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer .footer ul {
+  float: left;
+}
+
+footer .footer ul li {
+  float: left;
+  line-height: 48px;
+  margin: 0 10px;
+}
+
+footer .footer ul li a {
+  color: #1428a0;
+  font-size: 12px;
+}
+
+footer .footer p {
+  float: right;
+  font-size: 12px;
+  color: #767676;
+  line-height: 48px;
+}

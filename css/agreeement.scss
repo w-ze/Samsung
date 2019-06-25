@@ -1,0 +1,127 @@
+// html,body{
+//     height: 100%;
+// }
+main{
+    padding-bottom: 120px;
+    background: #f7f7f7;
+    overflow: hidden;
+    .left{
+        float: left;
+        width: 50%;
+        .left1{
+            margin-left: 25%;
+            h6{
+                padding-top: 60px;
+                color: #000;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            h1{
+                padding: 20px 0;
+                font-weight: bold;
+                font-size: 64px;
+                line-height: 1.125;
+            }
+            a{
+                color: #1428a0;
+                text-decoration: underline;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+    }
+    .right{
+        width: 50%;
+        float: left;
+        .rightup{
+            width: 71%;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 30px;
+            p{
+                padding: 120px 0 30px;
+            }
+            a{
+                color: #1428a0;
+                text-decoration: underline;
+                font-size: 20px;
+                line-height: 36px;
+            }
+            span{
+                font-size: 20px;
+                line-height: 36px;
+            }
+            input{
+                width: 25px;
+                height: 25px;
+                vertical-align: middle;
+            }
+        }
+
+        .rightdown{
+            width: 70%;
+            span{
+                font-weight: bold;
+                font-size: 20px;
+            }
+            input{
+                width: 25px;
+                height: 25px;
+                vertical-align: middle;
+            }
+            .agree{
+                margin-top: 60px;
+                font-size: 20px;
+                text-align: center;
+                background-color: #1428a0;
+                color: #fff;
+                display: inline-block;
+                width: 100%;
+                padding: 8px 0;
+                border-radius: 8px;
+                opacity: .4;
+            }
+            .reject{
+                margin-top: 10px;
+                font-size: 20px;
+                text-align: center;
+                background-color: #fff;
+                border: 1px solid #e1e1e1;
+                color: #000;
+                display: inline-block;
+                width: 100%;
+                padding: 8px 0;
+                border-radius: 8px;
+                
+            }
+        }
+    }
+    // padding-bottom: 60px;
+}
+
+footer{
+    background: #ebebeb;
+    overflow: hidden;
+    height: inherit;
+    .footer{
+        width: 70%;
+        margin: 0 auto;
+        ul{
+            float: left;
+            li{
+                float: left;
+                line-height: 48px;
+                margin: 0 10px;
+                a{
+                    color: #1428a0;
+                    font-size: 12px;
+                }
+            }
+        }
+        p{
+            float: right;
+            font-size: 12px;
+            color: #767676;
+            line-height: 48px;
+        }
+    }
+}

@@ -1,0 +1,289 @@
+main {
+    padding-bottom: 120px;
+    background: #f7f7f7;
+    overflow: hidden;
+
+    .main {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 120px;
+        h3 {
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 50px;
+            padding-bottom: 15px;
+        }
+
+        .register {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 1px 1px 3px 3px #d4d3d3;
+            padding: 60px;
+
+            .register1 {
+                h4 {
+                    font-size: 26px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+
+                h5 {
+                    font-weight: normal;
+                    font-size: 18px;
+                    padding-bottom: 20px;
+                }
+
+                div {
+                    position: relative;
+                    margin: 50px 0;
+                }
+
+                label {
+                    top: -5px;
+                    left: auto;
+                    position: absolute;
+                    color: #767676;
+                    font-size: 20px;
+                }
+
+                input {
+                    outline: none;
+                    height: 30px;
+                    border: none;
+                    border-bottom: 1px solid #ddd;
+                    color: #1428a0;
+                    width: 100%;
+                    line-height: 30px;
+                    font-size: 20px;
+                }
+                select {
+                    color: #1428a0;
+                    outline: none;
+                    border: 0;
+                    border-radius: 0;
+                    background: #fff;
+                    border-bottom: 1px solid #ddd;
+                    width: 100%;
+                    line-height: 30px;
+                    font-size: 20px;
+                    height: 30px;
+                    /*清除默认的select选择框样式*/
+                    appearance: none;
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+                }
+
+                span {
+                    color: #d0021b;
+                    font-size: 12px;
+                }
+
+                .verification {
+                    margin-top: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                    background-color: #1428a0;
+                    color: #fff;
+                    display: inline-block;
+                    width: 35%;
+                    padding: 8px 0;
+                    border-radius: 8px;
+                    opacity: .4;
+                    text-decoration: none;
+                }
+
+                p {
+                    font-size: 18px;
+                    padding-top: 30px;
+                }
+
+                a {
+                    text-decoration: underline;
+                    color: #1428a0;
+                    font-weight: bold;
+                }
+                .date{
+                    #year{
+                        margin-right: 3%;
+                    }
+                    input{
+                        width: 30%;
+                    }
+                    select{
+                        width: 30%;
+                        margin: 0 4% 0 0;
+                    }
+                }
+                .code{
+                    overflow: hidden;
+                    div{
+                        margin: 0;
+                        width: 50%;
+                        height: 50px; 
+                        background: url("../img/code-bg.png") repeat-x;
+                        float:left;
+                        text-align: center;
+                        font-size: 36px;
+                        line-height: 50px;
+                        font-weight: 900;
+                    }
+                    img{
+                        width: 30px;
+                        padding: 10px 0 0 10px;
+                    }
+                }
+                .pass{
+                    h6{
+                        font-size: 20px;
+                        
+                    }
+                    .bar{
+                        display: none;
+                        margin-top: 10px;
+                        width: 30%;
+                        height: 5px;
+                        background: #1428a0;
+                        margin-bottom: 0;
+                        div{
+                            float: left;
+                            height: 5px;
+                            width:  25%;
+                            margin: 0;
+                        }
+                    }
+                    .notice{
+                        display: none;
+                        padding: 10px;
+                        background: #f5f6ff;
+                        i{
+                            font-size: 20px !important;
+                        }
+                        p{
+                            padding-top: 0;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .register2 {
+                display: none;
+                h4 {
+                    font-size: 26px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+
+                h5 {
+                    font-weight: normal;
+                    font-size: 18px;
+                    padding-bottom: 20px;
+                }
+
+                div {
+                    position: relative;
+                    margin: 50px 0;
+                }
+
+                label {
+                    top: -5px;
+                    left: auto;
+                    position: absolute;
+                    color: #767676;
+                    font-size: 20px;
+                }
+
+                input {
+                    outline: none;
+                    height: 30px;
+                    border: none;
+                    border-bottom: 1px solid #ddd;
+                    width: 100%;
+                    line-height: 30px;
+                    font-size: 20px;
+                }
+
+                select {
+                    outline: none;
+                    border: 0;
+                    border-radius: 0;
+                    background: #fff;
+                    border-bottom: 1px solid #ddd;
+                    width: 100%;
+                    line-height: 30px;
+                    font-size: 20px;
+                    height: 30px;
+                    /*清除默认的select选择框样式*/
+                    appearance: none;
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+                }
+
+                span {
+                    color: #d0021b;
+                    font-size: 12px;
+                }
+                
+                .verification {
+                    margin-top: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                    background-color: #1428a0;
+                    color: #fff;
+                    display: inline-block;
+                    width: 35%;
+                    padding: 8px 0;
+                    border-radius: 8px;
+                    opacity: .4;
+                    text-decoration: none;
+                }
+
+                p {
+                    font-size: 18px;
+                    padding-top: 30px;
+                }
+
+                a {
+                    text-decoration: underline;
+                    color: #1428a0;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background: #ebebeb;
+    overflow: hidden;
+    height: inherit;
+
+    .footer {
+        width: 70%;
+        margin: 0 auto;
+
+        ul {
+            float: left;
+
+            li {
+                float: left;
+                line-height: 48px;
+                margin: 0 10px;
+
+                a {
+                    color: #1428a0;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        p {
+            float: right;
+            font-size: 12px;
+            color: #767676;
+            line-height: 48px;
+        }
+    }
+
+}

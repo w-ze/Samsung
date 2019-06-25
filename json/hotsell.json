@@ -1,0 +1,38 @@
+[
+    {
+        "id": "shop1-1",
+        "type" : "热销",
+        "name": "Galaxy S10+",
+        "src": "img/hotsell-1.jpg",
+        "originalprice": "￥6999.00",
+        "price": "￥6999.00",
+        "word" : "好礼三选一 享12期免息"
+    },
+    {
+        "id": "shop1-2",
+        "type" : "新品",
+        "name": "Galaxy A60",
+        "src": "img/hotsell-2.jpg",
+        "originalprice": "￥1499.00",
+        "price": "￥1499.00",
+        "word" : "蜜桃海盐 新色上市"
+    },
+    {
+        "id": "shop1-3",
+        "type" : "立减",
+        "name": "Galaxy S9+ 128G版本",
+        "src": "img/hotsell-3.jpg",
+        "originalprice": "￥6499.00",
+        "price": "￥4299.00",
+        "word" : "优惠2200元 享6期免息"
+    },
+    {
+        "id": "shop1-4",
+        "type" : "立减",
+        "name": "Galaxy S8",
+        "src": "img/hotsell-4.jpg",
+        "originalprice": "￥3999.00",
+        "price": "￥2499.00",
+        "word" : "优惠1500元 享3期免息"
+    }
+]

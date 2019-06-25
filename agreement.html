@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>三星账户</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/agreeement.css">
+</head>
+<body>
+    <main>
+        <div class="left">
+            <div class="left1">
+                <h6>三星账户</h6>
+                <h1>创建三星账户</h1>
+                <a href="https://account.samsung.cn/accounts/v1/ESTORE/serviceList">探索更多三星服务 &gt;</a>
+            </div>   
+        </div>
+        <div class="right">
+            <div class="rightup">
+                <p>点击以下链接并仔细阅读条款。继续使用即表示您确认已阅读并同意以下条款。</p> 
+                <input type="checkbox"><a href="#">条款和条件</a><span>以及</span><a href="#">特殊条款</a><br>
+                <input type="checkbox"><a href="#">三星隐私策略</a><br>
+                <input type="checkbox"><a href="#">个人敏感信息收集使用说明(核心功能）</a><br>
+                <input type="checkbox"><a href="#">其他特殊情形</a>
+            </div>
+            <div class="rightdown">
+                    <input type="checkbox"><span>我同意全部条款</span>
+                    <div>
+                        <a href="#" class="agree">同意</a>
+                    </div>
+                    <div>
+                        <a href="#" class="reject">拒绝</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="#">条款和条件</a></li>
+                <li><a href="#">三星隐私权政策</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <p>&copy; Samsung Electronics Co., Ltd.</p>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+
+$("main .right .rightdown input").click(function(){
+    $("main .right .rightup input").prop("checked",$("main .right .rightdown input").prop("checked"))
+   if($("main .right .rightdown input").prop("checked")){
+        $("main .right .rightdown .agree").css("opacity",1)
+        $("main .right .rightdown .agree").attr("href","registertest.html")
+    }else{
+        $("main .right .rightdown .agree").css("opacity",.4)
+    }
+})
+
+</script>

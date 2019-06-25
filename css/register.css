@@ -1,0 +1,297 @@
+@charset "UTF-8";
+main {
+  padding-bottom: 120px;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+main .main {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+main .main h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+main .main .register {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 3px #d4d3d3;
+  padding: 60px;
+}
+
+main .main .register .register1 h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main .main .register .register1 h5 {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+main .main .register .register1 div {
+  position: relative;
+  margin: 50px 0;
+}
+
+main .main .register .register1 label {
+  top: -5px;
+  left: auto;
+  position: absolute;
+  color: #767676;
+  font-size: 20px;
+}
+
+main .main .register .register1 input {
+  outline: none;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #1428a0;
+  width: 100%;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+main .main .register .register1 select {
+  color: #1428a0;
+  outline: none;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  line-height: 30px;
+  font-size: 20px;
+  height: 30px;
+  /*清除默认的select选择框样式*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+main .main .register .register1 span {
+  color: #d0021b;
+  font-size: 12px;
+}
+
+main .main .register .register1 .verification {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #1428a0;
+  color: #fff;
+  display: inline-block;
+  width: 35%;
+  padding: 8px 0;
+  border-radius: 8px;
+  opacity: .4;
+  text-decoration: none;
+}
+
+main .main .register .register1 p {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+main .main .register .register1 a {
+  text-decoration: underline;
+  color: #1428a0;
+  font-weight: bold;
+}
+
+main .main .register .register1 .date #year {
+  margin-right: 3%;
+}
+
+main .main .register .register1 .date input {
+  width: 30%;
+}
+
+main .main .register .register1 .date select {
+  width: 30%;
+  margin: 0 4% 0 0;
+}
+
+main .main .register .register1 .code {
+  overflow: hidden;
+}
+
+main .main .register .register1 .code div {
+  margin: 0;
+  width: 50%;
+  height: 50px;
+  background: url("../img/code-bg.png") repeat-x;
+  float: left;
+  text-align: center;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+main .main .register .register1 .code img {
+  width: 30px;
+  padding: 10px 0 0 10px;
+}
+
+main .main .register .register1 .pass h6 {
+  font-size: 20px;
+}
+
+main .main .register .register1 .pass .bar {
+  display: none;
+  margin-top: 10px;
+  width: 30%;
+  height: 5px;
+  background: #1428a0;
+  margin-bottom: 0;
+}
+
+main .main .register .register1 .pass .bar div {
+  float: left;
+  height: 5px;
+  width: 25%;
+  margin: 0;
+}
+
+main .main .register .register1 .pass .notice {
+  display: none;
+  padding: 10px;
+  background: #f5f6ff;
+}
+
+main .main .register .register1 .pass .notice i {
+  font-size: 20px !important;
+}
+
+main .main .register .register1 .pass .notice p {
+  padding-top: 0;
+  font-size: 16px;
+}
+
+main .main .register .register2 {
+  display: none;
+}
+
+main .main .register .register2 h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main .main .register .register2 h5 {
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+main .main .register .register2 div {
+  position: relative;
+  margin: 50px 0;
+}
+
+main .main .register .register2 label {
+  top: -5px;
+  left: auto;
+  position: absolute;
+  color: #767676;
+  font-size: 20px;
+}
+
+main .main .register .register2 input {
+  outline: none;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+main .main .register .register2 select {
+  outline: none;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  line-height: 30px;
+  font-size: 20px;
+  height: 30px;
+  /*清除默认的select选择框样式*/
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+main .main .register .register2 span {
+  color: #d0021b;
+  font-size: 12px;
+}
+
+main .main .register .register2 .verification {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #1428a0;
+  color: #fff;
+  display: inline-block;
+  width: 35%;
+  padding: 8px 0;
+  border-radius: 8px;
+  opacity: .4;
+  text-decoration: none;
+}
+
+main .main .register .register2 p {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+main .main .register .register2 a {
+  text-decoration: underline;
+  color: #1428a0;
+  font-weight: bold;
+}
+
+footer {
+  background: #ebebeb;
+  overflow: hidden;
+  height: inherit;
+}
+
+footer .footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer .footer ul {
+  float: left;
+}
+
+footer .footer ul li {
+  float: left;
+  line-height: 48px;
+  margin: 0 10px;
+}
+
+footer .footer ul li a {
+  color: #1428a0;
+  font-size: 12px;
+}
+
+footer .footer p {
+  float: right;
+  font-size: 12px;
+  color: #767676;
+  line-height: 48px;
+}

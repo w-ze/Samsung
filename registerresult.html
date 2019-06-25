@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>三星账户</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/registerresult.css">
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <h3>三星账户</h3>
+            <div class="register">
+                <div class="register1">
+                    <h4>电子邮件已发送。</h4>
+                    <h5>创建帐户的最后一步是点击我们发送至以下电子邮件地址的链接。</h5>
+                    <div>
+
+                    </div>
+                    <a href="registercheck.html" class="verification">验证账户</a>
+                    <p>是否无法找到电子邮件？</p>
+                    <a href="javascript:;" class="replace">重新发送验证电子邮件</a>
+                    <p>电子邮件地址不正确？</p>
+                    <a href="javascript:;" class="replace">更改邮件地址</a>
+                </div>
+               
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="#">条款和条件</a></li>
+                <li><a href="#">三星隐私权政策</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <p>&copy; Samsung Electronics Co., Ltd.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script>
+    $(".register1 div").html($.cookie( "userinfo" ))
+</script>
