@@ -62,7 +62,6 @@ var flag = false
 $("#code").keyup(function(){
     var str1 = $(".code div").html();
     var str2 = $("#code").val();
-    console.log(str1,str2)
     if(str1 != str2){
         $(this).css("border-color", "#d0021b");
         $(this).css("color", "#d0021b");
@@ -80,12 +79,33 @@ $("#code").keyup(function(){
 
     function test(flag) {
         if (flag) {
-            $(".register1 .verification").attr("href", `php/login.php?user=${$("#email").val()}&upwd=${$("#pass").val()}`);
+            // $(".register1 .verification").attr("href", `login.html`);
+            $(".register1 .verification").click(function(){
+                var deff = $.ajax({
+                    tyoe : "get",
+                    url : `php/login.php?user=${$("#email").val()}&upwd=${$("#pass").val()}`,
+                    async : true
+                })
+                
+                deff.done(function(res){
+                    console.log(res);
+                    if(res == 1){
+                        alert("登录成功");
+                        location.href = "shopstore.html";
+                        $.cookie("loginuser",$("#email").val(),{ expires : 3 })
+                    }else{
+                        alert("登录成功"); 
+                        location.href = "login.html";
+                    }
+                })
+            })
         } else {
             $(".register1 .verification").attr("href", "javascript:;");
         }
     }
 })
+
+
 
 
 

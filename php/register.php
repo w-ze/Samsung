@@ -11,13 +11,15 @@
     mysqli_query("set names utf8");
 
     $sql = "INSERT INTO userinfo(uname, upwd) VALUES ('$user','$pwd')";
-    echo "$sql";
+    // echo "$sql";
     $result = mysqli_query($link,$sql);
     if($result){
-        echo "<script>alert('注册成功');location.href = '../loginindex.html'</script>";
+        echo "1";
+        // echo "<script>alert('注册成功');location.href = '../registerresult.html'</script>";
     }else{
-        echo "<script>alert('注册失败')</script>";
+        echo "0";
+        // echo "<script>alert('注册失败')</script>";
     }
 
-    echo "邮箱是：$user,<br>密码是：$pwd";
+    // echo "邮箱是：$user,<br>密码是：$pwd";
 ?>

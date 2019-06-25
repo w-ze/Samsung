@@ -235,7 +235,27 @@ $("#code").keyup(function(){
 function test(flag,flag1, flag2, flag3,flag4,flag5) {
     if (flag1 && flag2 && flag3 && flag4 && flag5 && flag) {
         $(".register1 .verification").css("opacity", 1);
-        $(".register1 .verification").attr("href", `php/register.php?username=${$("#email").val()}&password=${$("#pass1").val()}`);
+        $(".register1 .verification").click(function(){
+            var deff = $.ajax({
+                tyoe : "get",
+                url : `php/register.php?username=${$("#email").val()}&password=${$("#pass1").val()}`,
+                async : true
+            })
+            
+            deff.done(function(res){
+                console.log(res);
+                if(res == 1){
+                    alert("注册成功");
+                    
+                    location.href = "registerresult.html";
+                    // $.cookie("loginuser",$("#email").val(),{ expires : 3 })
+                }else{
+                    alert("注册失败"); 
+                    location.href = "register.html";
+                }
+            })
+        })
+        // $(".register1 .verification").attr("href", `php/register.php?username=${$("#email").val()}&password=${$("#pass1").val()}`);
         $(".register1 .verification").click(function(){
             $.cookie( "userinfo" , $("#email").val()  , { expires : 3 } );
         })
@@ -256,7 +276,7 @@ $(".register2 .replace").click(function () {
     $(".register2").css("display", "none")
 })
 
-//用户名存入cookie传值
+
 
 
 

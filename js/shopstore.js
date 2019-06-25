@@ -428,3 +428,7 @@ $(".recommend .nav ul").on("click","li",function () {
     $(".recommend .product ul").eq(ind4).fadeIn(1000).siblings().not("span").fadeOut(1000);
     $(".recommend .nav li").eq(ind4).addClass("selected").siblings().removeClass("selected");
 })
+
+// 登录用户名显示
+var uname = $.cookie("loginuser");
+$(".login").html("<i class='iconfont'>&#xe608;</i>" + uname)
