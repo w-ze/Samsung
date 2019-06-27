@@ -135,6 +135,7 @@ deff1.done(function (json) {
         // console.log(json[i])
         if (json[i].id == pid) {
             $("main .right h1").html(json[i].name)
+            $("main .right h2").html(json[i].price)
             for (let j in json[i].color) {
                 $("main .right .color div").append($(`<button><span></span><i>${j}</i></button>`))
 
@@ -160,35 +161,6 @@ deff1.done(function (json) {
                         $(".left .big img").eq(0).css("display", "block").siblings().css("display", "none")
                     }
                 }
-                // $("main .right .color").on("click", "button", function () {
-                //     $("main .left ol").html("")
-                //     $("main .left ul").html("")
-                //     $("main .left .big").html("")
-                //     console.log(json[i].color[j].img)
-                //     for (let k in json[i].color[j].img) {
-                //         if ($(this).children().eq(1).html() == j) {
-                //             console.log(json[i].color[j].img[k])
-
-                //             $("main .left ol").append($(`<li>
-                //                                             <a href='javascript:;'>
-                //                                                 <img src='${json[i].color[j].img[k]}.jpg' alt=''>
-                //                                             </a>
-                //                                         </li>`))
-                //             // console.log(json[i].color["炭晶黑"].img[k])
-                //             $("main .left ul").append($(`<li>
-                //                                             <a href='javascript:;'>
-                //                                                 <img src='${json[i].color[j].img[k]}.jpg' alt=''>
-                //                                             </a>
-                //                                         </li>`))
-                //             // console.log(json[i].color["炭晶黑"].img[k])
-
-                //             $("main .left .big").append($(` <img src='${json[i].color[j].img[k]}.jpg' alt=''>`))
-                //             $(".left ul li").eq(0).css("display", "block").siblings().css("display", "none")
-                //             $(".left .big img").eq(0).css("display", "block").siblings().css("display", "none")
-                //         }
-                //     }
-
-                // })
             }
 
 
@@ -228,51 +200,6 @@ deff1.done(function (json) {
             })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-            // for (let j in json[i].color) {
-            //     console.log(json[i].color["炭晶黑"].img)
-            //     for (let k in json[i].color[j].img) {
-            //         $("main .right .color").on("click", "button", function () {
-            //             // alert()
-            //             console.log(typeof(j))
-
-            //             if ($(this).children().eq(1).html() == j) {
-            //                 console.log(json[i].color[j].img[k])
-            //                 $("main .left ol").html("")
-            //                 $("main .left ul").html("")
-            //                 $("main .left .big").html("")
-            //                 $("main .left ol").append($(`<li>
-            //                                                     <a href='javascript:;'>
-            //                                                         <img src='${json[i].color[j].img[k]}.jpg' alt=''>
-            //                                                     </a>
-            //                                                 </li>`))
-            //                 console.log(json[i].color["炭晶黑"].img[k])
-            //                 $("main .left ul").append($(`<li>
-            //                                                     <a href='javascript:;'>
-            //                                                         <img src='${json[i].color[j].img[k]}.jpg' alt=''>
-            //                                                     </a>
-            //                                                 </li>`))
-            //                 // console.log(json[i].color["炭晶黑"].img[k])
-
-            //                 $("main .left .big").append($(` <img src='${json[i].color[j].img[k]}.jpg' alt=''>`))
-            //                 $(".left ul li").eq(0).css("display", "block").siblings().css("display", "none")
-            //                 $(".left .big img").eq(0).css("display", "block").siblings().css("display", "none")
-            //             }
-            //         })
-            //     }
-            // }
-
             for (var j in json[i].ram) {
                 $("main .right .ram div").append($(`<button>${json[i].ram[j]}</button>`))
                 // console.log(json[i].ram[j])
@@ -289,3 +216,34 @@ deff1.done(function (json) {
 
 $(".left ul li").eq(0).css("display", "block").siblings().css("display", "none")
 $(".left .big img").eq(0).css("display", "block").siblings().css("display", "none")
+
+
+// 加入购物车
+$("main .right .shop").click(function () {
+    var flag = true;
+    var arr = [];
+    var json = {
+        "id": pid,
+        "name": $("main .right h1").html(),
+        "src": $("main .left ul li").eq(0).children().children().attr("src"),
+        "price": $("main .right h2").html(),
+        "count": 1
+    }
+    console.log(json)
+    var str = localStorage.getItem("shoplist");
+    if (str != null) {
+        arr = JSON.parse(str);
+        arr.forEach(function (pro) {
+            if (pro.id == json.id) {
+                pro.count++;
+                flag = false;
+                return;
+            }
+        })
+    }
+    console.log(flag)
+    if (flag) {
+        arr.push(json);
+    }
+    localStorage.setItem("shoplist", JSON.stringify(arr));
+})

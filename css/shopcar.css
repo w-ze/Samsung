@@ -296,238 +296,174 @@ footer .footer .right span a {
 }
 
 main {
-  padding-bottom: 50px;
-}
-
-main .main {
-  width: 96%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-main .main .left {
-  float: left;
-  width: 50%;
-  position: relative;
-}
-
-main .main .left .big {
-  display: none;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  left: 500px;
-  top: 0;
-  overflow: hidden;
-}
-
-main .main .left .big img {
-  width: 250%;
-  height: 250%;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-main .main .left ul {
-  width: 500px;
-  height: 500px;
   overflow: hidden;
   position: relative;
 }
 
-main .main .left ul .small {
-  display: none;
-  width: 200px;
-  height: 200px;
-  background: #fff;
-  opacity: .3;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  box-shadow: 1px 1px 3px 1px #000;
-}
-
-main .main .left ul li {
-  position: absolute;
-  top: 0;
-  left: 0;
+main ul {
+  margin-top: 50px;
   width: 100%;
+  overflow: hidden;
+}
+
+main ul li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+main ul li i {
+  font-style: normal;
+  background: #1428a0;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  font-family: Tahoma;
+  font-weight: bold;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 15px auto;
+}
+
+main ul li p {
+  color: #999;
+}
+
+main .sambar {
+  width: 100%;
+  height: 5px;
+  background: #eee;
+  position: absolute;
+  z-index: -1;
+  top: 66px;
+  left: 0;
+}
+
+main .sambar span {
+  display: block;
+  float: left;
+  width: 33.33%;
   height: 100%;
 }
 
-main .main .left ul li img {
-  width: 100%;
+main .null {
+  padding: 64px 30px 86px 30px;
+  text-align: center;
 }
 
-main .main .left button {
-  float: left;
+main .null i {
+  font-size: 110px !important;
+  color: #eee;
 }
 
-main .main .left .show {
-  margin-top: 20px;
-  float: left;
-  width: 80%;
-  overflow: hidden;
-}
-
-main .main .left .show ol {
-  overflow: hidden;
-  width: 100%;
-}
-
-main .main .left .show ol li {
-  float: left;
-  width: 14.28%;
-}
-
-main .main .left .show ol li img {
-  width: 100%;
-}
-
-main .main .right {
-  float: left;
-  width: 50%;
-}
-
-main .main .right h1 {
-  font-size: 33px;
+main .null h3 {
   font-weight: normal;
-}
-
-main .main .right .color,
-main .main .right .ram,
-main .main .right .version,
-main .main .right .price {
-  overflow: hidden;
-}
-
-main .main .right .color p,
-main .main .right .ram p,
-main .main .right .version p,
-main .main .right .price p {
-  float: left;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-main .main .right .color div,
-main .main .right .ram div,
-main .main .right .version div,
-main .main .right .price div {
-  width: 80%;
-  float: left;
-}
-
-main .main .right .color div button,
-main .main .right .ram div button,
-main .main .right .version div button,
-main .main .right .price div button {
-  float: left;
-  display: block;
-  font-size: 14px;
-  border: 1px solid #ddd;
-  margin: 7px 8px;
-  width: 145px;
-  padding: 9px 30px;
-  text-align: center;
-  background: #fff;
-}
-
-main .main .right .color div button i,
-main .main .right .ram div button i,
-main .main .right .version div button i,
-main .main .right .price div button i {
-  font-style: normal;
-}
-
-main .main .right .color div button span,
-main .main .right .ram div button span,
-main .main .right .version div button span,
-main .main .right .price div button span {
-  display: block;
-  float: left;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #000;
-  margin-right: 3px;
-}
-
-main .main .right .price {
-  margin-bottom: 50px;
-  margin-top: 10px;
-}
-
-main .main .right .price div {
-  background: #f8f8f8;
-  padding: 10px;
-}
-
-main .main .right .price div h1 {
-  float: right;
-  font-size: 33px;
-  line-height: 33px;
-  font-weight: bold;
-}
-
-main .main .right .price div span {
-  font-size: 16px;
-  color: #333;
-  float: left;
-  width: 40%;
-  font-weight: bolder;
-}
-
-main .main .right a {
-  float: left;
-  font-weight: bold;
-  display: block;
-  overflow: hidden;
-  text-transform: uppercase;
-  text-align: center;
-  white-space: normal;
-  vertical-align: middle;
-  padding: 0;
-  border: 0;
-  margin: 0;
-  color: #222;
-  border-radius: 0;
   font-size: 24px;
-  background: #fff;
-  border: 1px solid #000;
-  border-radius: 24px;
-  min-width: 100px;
-  height: 48px;
-  line-height: 48px;
-  width: 200px;
+  line-height: 28px;
+  margin: 37px 0 30px;
 }
 
-main .main .right .new {
-  background: #2f0d9b;
+main .null a {
+  background: #1428a0;
   color: #fff;
-  margin-right: 5px;
+  display: inline-block;
+  width: 270px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
 }
 
-main .main .right .new:hover {
-  background: #fff;
-  color: #2f0d9b;
+main .shop {
+  padding: 10px 20px;
+  display: none;
 }
 
-main .main .right .shop:hover {
-  background: #000;
-  color: #fff;
+main .shop .list {
+  overflow: hidden;
 }
 
-section img {
+main .shop .list table {
+  text-align: center;
   width: 100%;
+  line-height: 48px;
 }
 
-.selected {
+main .shop .list table thead {
+  width: 100%;
+  background: #eee;
+}
+
+main .shop .list table thead tr td:nth-child(1) {
+  width: 5%;
+}
+
+main .shop .list table thead tr td:nth-child(2) {
+  width: 10%;
+}
+
+main .shop .list table thead tr td:nth-child(3) {
+  width: 30%;
+}
+
+main .shop .list table thead tr td:nth-child(6) {
+  width: 30%;
+}
+
+main .shop .list table tbody img {
+  width: 80%;
+}
+
+main .shop .list table tbody span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d1d1d1;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+main .shop .list .price {
+  overflow: hidden;
+  height: 100px;
+}
+
+main .shop .list .price p {
+  line-height: 100px;
+  float: left;
+}
+
+main .shop .list .price .right {
+  float: right;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+main .shop .list .price .right .pr, main .shop .list .price .right .vip {
+  font-size: 24px;
   color: #1428a0;
-  border-bottom: 2px solid #1428a0;
+}
+
+main .shop .list .sum {
+  height: 50px;
+  background: #eee;
+}
+
+main .shop .list .sum a {
+  line-height: 50px;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #1428a0;
+}
+
+main .shop .list .sum .sumprice {
+  text-align: center;
+  float: right;
+  background: #1428a0;
+  color: #fff;
+  font-weight: bold;
+  width: 300px;
 }
 
 .back {
