@@ -172,9 +172,9 @@ deff1.done(function (json) {
                     temp = i;
                 }
                 $(".accessories .product ul").eq(ind).append($(` <li>
-                                                                    <a href="#"><img src=${json[i].list[j].src} alt=""></a>
-                                                                    <h3>${json[i].list[j].name}
-                                                                    <p class="word">${json[i].list[j].word}</p></h3>
+                                                                    <a href="item.html?pname=${json[i].list[j].id}"><img src=${json[i].list[j].src} alt=""></a>
+                                                                    <h3>${json[i].list[j].name}</h3>
+                                                                    
                                                                     <p>${json[i].list[j].price}</p>
                                                                 </li>`))
             } else {
@@ -183,10 +183,10 @@ deff1.done(function (json) {
                     temp = i;
                 }
                 $(".accessories .product ul").eq(ind).append($(` <li>
-                                                                    <a href="#"><img src=${json[i].list[j].src} alt=""></a>
-                                                                    <h3>${json[i].list[j].name}
-                                                                    <p class="word">${json[i].list[j].word}</p></h3>
-                                                                    <p>${json[i].list[j].price} <i>${json[i].list[j].originalprice}</i></p>
+                                                                    <a href="item.html?pname=${json[i].list[j].id}"><img src=${json[i].list[j].src} alt=""></a>
+                                                                    <h3>${json[i].list[j].name}</h3>
+                                                                    
+                                                                    <p>${json[i].list[j].price}</p>
                                                                 </li>`))
                
             }
@@ -328,14 +328,14 @@ deff2.done(function (json) {
     for (var i in json) {
         if (json[i].price == json[i].originalprice) {
             $(".hotsell ul").append($(` <li>
-                                            <a href="#"><img src=${json[i].src} alt=""></a>
+                                            <a href="item.html?pname=${json[i].id}"><img src=${json[i].src} alt=""></a>
                                             <h3>${json[i].name}</h3>
                                             <p class="word">${json[i].word}</p>
                                             <p>${json[i].price}</p>
                                         </li>`))
         } else {
             $(".hotsell ul").append($(` <li>
-                                            <a href="#"><img src=${json[i].src} alt=""></a>
+                                            <a href="item.html?pname=${json[i].id}"><img src=${json[i].src} alt=""></a>
                                             <h3>${json[i].name}</h3>
                                             <p class="word">${json[i].word}</p>
                                             <p>${json[i].price} <span>${json[i].originalprice}</span></p>
@@ -366,7 +366,7 @@ deff3.done(function (json) {
                     temp = i;
                 }
                 $(".recommend .product ul").eq(ind).append($(` <li>
-                                                                    <a href="#"><img src=${json[i].list[j].src} alt=""></a>
+                                                                    <a href="item.html?pname=${json[i].list[j].id}"><img src=${json[i].list[j].src} alt=""></a>
                                                                     <h3>${json[i].list[j].name}
                                                                     <p class="word">${json[i].list[j].word}</p></h3>
                                                                     <p>${json[i].list[j].price}</p>
@@ -380,7 +380,7 @@ deff3.done(function (json) {
                     temp = i;
                 }
                 $(".recommend .product ul").eq(ind).append($(` <li>
-                                                                    <a href="#"><img src=${json[i].list[j].src} alt=""></a>
+                                                                    <a href="item.html?pname=${json[i].list[j].id}"><img src=${json[i].list[j].src} alt=""></a>
                                                                     <h3>${json[i].list[j].name}
                                                                     <p class="word">${json[i].list[j].word}</p></h3>
                                                                     <p>${json[i].list[j].price} <i>${json[i].list[j].originalprice}</i></p>

@@ -12,7 +12,7 @@
 				"word" : "优惠1200元 享12期免息"
 			},
 			{
-				"id": "shop1-2",
+				"id": "shop1-17",
 				"type" : "立减",
 				"name": "Galaxy Note9",
 				"src": "img/recommend1-2.jpg",
@@ -21,7 +21,7 @@
 				"word" : "至高优惠2500元 6期免息"
 			},
 			{
-				"id": "shop1-3",
+				"id": "shop1-18",
 				"type" : "立减",
 				"name": "Galaxy A9s",
 				"src": "img/recommend1-3.jpg",
@@ -30,7 +30,7 @@
 				"word" : "优惠1200元 享3期免息"
 			},
 			{
-				"id": "shop1-4",
+				"id": "shop1-31",
 				"type" : "立减",
 				"name": "Galaxy A6s",
 				"src": "img/recommend1-4.jpg",
@@ -44,7 +44,7 @@
 		"name" : "可穿戴设备",
 		"list" : [
 			{
-				"id": "shop2-1",
+				"id": "shop1-19",
 				"type" : "热销",
 				"name": "Samsung Galaxy Buds",
 				"src": "img/recommend2-1.jpg",
@@ -53,7 +53,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop1-2",
+				"id": "shop1-20",
 				"type" : "热销",
 				"name": "Galaxy Watch Active",
 				"src": "img/recommend2-2.jpg",
@@ -62,7 +62,7 @@
 				"word" : "享6期免息"
 			},
 			{
-				"id": "shop1-3",
+				"id": "shop1-21",
 				"type" : "热销",
 				"name": "Samsung Galaxy Watch LTE版 46mm钛泽银",
 				"src": "img/recommend2-3.jpg",
@@ -71,7 +71,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop2-4",
+				"id": "shop1-22",
 				"type" : "热销",
 				"name": "Samsung Galaxy Watch 蓝牙版42mm",
 				"src": "img/recommend2-4.jpg",
@@ -85,7 +85,7 @@
 		"name" : "平板电脑",
 		"list" : [
 			{
-				"id": "shop3-1",
+				"id": "shop1-23",
 				"type" : "新品",
 				"name": "Galaxy Tab S5e 4G",
 				"src": "img/recommend3-1.jpg",
@@ -94,7 +94,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop3-1",
+				"id": "shop1-24",
 				"type" : "新品",
 				"name": "Galaxy Tab A(2019 10.1英寸)",
 				"src": "img/recommend3-2.jpg",
@@ -103,7 +103,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop3-3",
+				"id": "shop1-25",
 				"type" : "热销",
 				"name": "Galaxy Tab S4 4G",
 				"src": "img/recommend3-3.jpg",
@@ -112,7 +112,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop3-4",
+				"id": "shop1-26",
 				"type" : "立减",
 				"name": "Galaxy Tab E",
 				"src": "img/recommend3-4.jpg",
@@ -126,7 +126,7 @@
 		"name" : "笔记本电脑",
 		"list" : [
 			{
-				"id": "shop4-1",
+				"id": "shop1-27",
 				"type" : "立减",
 				"name": "三星星曜Pen 930MBE-K01",
 				"src": "img/recommend4-1.jpg",
@@ -135,7 +135,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop4-2",
+				"id": "shop1-28",
 				"type" : "热销",
 				"name": "三星玄龙MR+",
 				"src": "img/recommend4-2.jpg",
@@ -144,7 +144,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop4-3",
+				"id": "shop1-29",
 				"type" : "立减",
 				"name": "Notebook 3 35X0AA-X06",
 				"src": "img/recommend4-3.jpg",
@@ -153,7 +153,7 @@
 				"word" : "&nbsp;"
 			},
 			{
-				"id": "shop4-4",
+				"id": "shop1-30",
 				"type" : "立减",
 				"name": "三星星曜Pen Pro930SBE-K01",
 				"src": "img/recommend4-4.jpg",

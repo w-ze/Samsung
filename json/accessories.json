@@ -3,25 +3,25 @@
 		"name" : "保护类",
 		"list" : [
 			{
-				"id" : "shop1-1",
+				"id" : "shop1-5",
 				"name" : "Galaxy S10+ 镜面保护套",
 				"src" : "img/access1-1.jpg",
 				"price" : "￥428.00"
 			},
 			{
-				"id" : "shop1-2",
+				"id" : "shop1-6",
 				"name" : "Galaxy S10+ 硅胶保护套",
 				"src" : "img/access1-2.jpg",
 				"price" : "￥199.00"
 			},
 			{
-				"id" : "shop1-3",
+				"id" : "shop1-7",
 				"name" : "Galaxy S10 镜面保护套",
 				"src" : "img/access1-3.jpg",
 				"price" : "￥428.00"
 			},
 			{
-				"id" : "shop1-4",
+				"id" : "shop1-8",
 				"name" : "Galaxy S10+ LED智能背光保护套",
 				"src" : "img/access1-4.jpg",
 				"price" : "￥398.00"
@@ -32,25 +32,25 @@
 		"name" : "音频类",
 		"list" : [
 			{
-				"id" : "shop2-1",
+				"id" : "shop1-9",
 				"name" : "AKG Y100BT 颈挂式无线蓝牙耳机",
 				"src" : "img/access2-1.jpg",
 				"price" : "￥699.00"
 			},
 			{
-				"id" : "shop2-2",
+				"id" : "shop1-10",
 				"name" : "AKG N200BT 入耳式无线蓝牙运动耳机",
 				"src" : "img/access2-2.jpg",
 				"price" : "￥999.00"
 			},
 			{
-				"id" : "shop2-3",
+				"id" : "shop1-11",
 				"name" : "AKG Y500BT 贴耳式无线蓝牙耳机",
 				"src" : "img/access2-3.jpg",
 				"price" : "￥1299.00"
 			},
 			{
-				"id" : "shop2-4",
+				"id" : "shop1-12",
 				"name" : "入耳式耳机",
 				"src" : "img/access2-4.jpg",
 				"price" : "￥79.00"
@@ -61,25 +61,25 @@
 		"name" : "电源类",
 		"list" : [
             {
-				"id" : "shop3-1",
+				"id" : "shop1-13",
 				"name" : "双项无线充电底座",
 				"src" : "img/access3-1.jpg",
 				"price" : "￥608.00"
 			},
             {
-				"id" : "shop3-2",
+				"id" : "shop1-14",
 				"name" : "立式无线充电器2018",
 				"src" : "img/access3-2.jpg",
 				"price" : "￥408.00"
 			},
             {
-				"id" : "shop3-3",
+				"id" : "shop1-15",
 				"name" : "三星 旅行充电器 Type C",
 				"src" : "img/access3-3.jpg",
 				"price" : "￥108.00"
 			},
             {
-				"id" : "shop3-4",
+				"id" : "shop1-16",
 				"name" : "无线充电移动电源",
 				"src" : "img/access3-4.jpg",
 				"price" : "￥299.00"

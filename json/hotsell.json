@@ -1,38 +1,109 @@
 [
     {
         "id": "shop1-1",
-        "type" : "热销",
+        "type": "热销",
         "name": "Galaxy S10+",
         "src": "img/hotsell-1.jpg",
         "originalprice": "￥6999.00",
         "price": "￥6999.00",
-        "word" : "好礼三选一 享12期免息"
+        "word": "好礼三选一 享12期免息",
+        "color": {
+            "炭晶黑": {
+                "bg": "#0c0c0c",
+                "img": {
+                    "img1": "img/item1-1",
+                    "img2": "img/item1-2",
+                    "img3": "img/item1-3",
+                    "img4": "img/item1-4",
+                    "img5": "img/item1-5",
+                    "img6": "img/item1-6",
+                    "img7": "img/item1-7"
+                }
+            },
+            "皓玉白": {
+                "bg": "#bad5dd",
+                "img": {
+                    "img1": "img/item2-1",
+                    "img2": "img/item2-2",
+                    "img3": "img/item2-3",
+                    "img4": "img/item2-4",
+                    "img5": "img/item2-5",
+                    "img6": "img/item2-6",
+                    "img7": "img/item2-7"
+                }
+            },
+            "琉璃绿": {
+                "bg": "#2b7c7cc",
+                "img": {
+                    "img1": "img/item3-1",
+                    "img2": "img/item3-2",
+                    "img3": "img/item3-3",
+                    "img4": "img/item3-4",
+                    "img5": "img/item3-5",
+                    "img6": "img/item3-6",
+                    "img7": "img/item3-7"
+                }
+            },
+            "陶瓷黑": {
+                "bg": "#1c1a18",
+                "img": {
+                    "img1": "img/item4-1",
+                    "img2": "img/item4-2",
+                    "img3": "img/item4-3",
+                    "img4": "img/item4-4",
+                    "img5": "img/item4-5",
+                    "img6": "img/item4-6",
+                    "img7": "img/item4-7"
+                }
+            },
+            "陶瓷白": {
+                "bg": "#e7e6e3",
+                "img": {
+                    "img1": "img/item5-1",
+                    "img2": "img/item5-2",
+                    "img3": "img/item5-3",
+                    "img4": "img/item5-4",
+                    "img5": "img/item5-5",
+                    "img6": "img/item5-6",
+                    "img7": "img/item5-7"
+                }
+            }
+        },
+        "ram": {
+            "1": "8GB RAM<br>128GB ROM<br>￥6999.00",
+            "2": "8GB RAM<br>512GB ROM<br>*",
+            "3": "12GB RAM<br>1TB ROM<br>*"
+        },
+        "version": {
+            "1": "公开版",
+            "2": "移动4G+版"
+        }
     },
     {
         "id": "shop1-2",
-        "type" : "新品",
+        "type": "新品",
         "name": "Galaxy A60",
         "src": "img/hotsell-2.jpg",
         "originalprice": "￥1499.00",
         "price": "￥1499.00",
-        "word" : "蜜桃海盐 新色上市"
+        "word": "蜜桃海盐 新色上市"
     },
     {
         "id": "shop1-3",
-        "type" : "立减",
+        "type": "立减",
         "name": "Galaxy S9+ 128G版本",
         "src": "img/hotsell-3.jpg",
         "originalprice": "￥6499.00",
         "price": "￥4299.00",
-        "word" : "优惠2200元 享6期免息"
+        "word": "优惠2200元 享6期免息"
     },
     {
         "id": "shop1-4",
-        "type" : "立减",
+        "type": "立减",
         "name": "Galaxy S8",
         "src": "img/hotsell-4.jpg",
         "originalprice": "￥3999.00",
         "price": "￥2499.00",
-        "word" : "优惠1500元 享3期免息"
+        "word": "优惠1500元 享3期免息"
     }
 ]
