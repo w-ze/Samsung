@@ -76,8 +76,10 @@ deff.done(function (json) {
 
 // 登录用户名显示
 var uname = $.cookie("loginuser");
-$(".login").html("<i class='iconfont'>&#xe608;</i>" + uname)
+if(uname){
+    $(".login").html("<i class='iconfont'>&#xe608;</i>" + uname)
 
+}
 // 放大镜效果
 $(".left ul").mouseenter(function () {
     $(".left ul .small").css("display", "block")

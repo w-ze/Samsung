@@ -431,4 +431,7 @@ $(".recommend .nav ul").on("click","li",function () {
 
 // 登录用户名显示
 var uname = $.cookie("loginuser");
-$(".login").html("<i class='iconfont'>&#xe608;</i>" + uname)
+if(uname){
+    $(".login").html("<i class='iconfont'>&#xe608;</i>" + uname)
+
+}
