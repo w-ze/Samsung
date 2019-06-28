@@ -83,17 +83,17 @@ $(".login").html("<i class='iconfont'>&#xe608;</i>" + uname)
 //判断购物车是否为空
 var str = localStorage.getItem("shoplist");
 
-function check(){
-var str = localStorage.getItem("shoplist");
+function check() {
+    var str = localStorage.getItem("shoplist");
 
-    if(str == "[]"){
-        $(".null").css("display","block");
-        $(".shop").css("display","none");
-    }else{
-        $(".null").css("display","none");
-        $(".shop").css("display","block");
+    if (str == "[]") {
+        $(".null").css("display", "block");
+        $(".shop").css("display", "none");
+    } else {
+        $(".null").css("display", "none");
+        $(".shop").css("display", "block");
     }
-    console.log(typeof(str))
+    console.log(typeof (str))
 }
 check();
 
@@ -125,7 +125,7 @@ for (var i in arr) {
 
 // 数量加减
 $(".updateCount").click(function () {
-    
+
     //确定要操作的商品编号
     var pid = $(this).parent().parent().data("id");
     console.log(pid)
@@ -154,7 +154,7 @@ $(".updateCount").click(function () {
             vip = vip.split(".")[0];
             vip = vip.split("￥")[1];
             console.log(vip)
-            $(this).parent().parent().find(".sumprice").html(`￥${vip*pro.count}.00`);
+            $(this).parent().parent().find(".sumprice").html(`￥${vip * pro.count}.00`);
             // jiesuan();
             return;
         }
@@ -173,41 +173,41 @@ $(".all").click(function () {
 
 //选择结算
 
-$(".ck").click(function(){
+$(".ck").click(function () {
     sum();
 })
 
 
 //删除
-$(".del").click(function(){
+$(".del").click(function () {
     $(this).parent().parent().remove();
     var pid = $(this).parent().parent().data("id");
-    arr.forEach( (pro,index)=>{
-        if( pro.id === pid ){
+    arr.forEach((pro, index) => {
+        if (pro.id === pid) {
             //删除数组中的pro这个商品
-            arr.splice(index,1);
+            arr.splice(index, 1);
             //将数组重新存入到storage中
-            localStorage.setItem("shoplist",JSON.stringify( arr ) );
+            localStorage.setItem("shoplist", JSON.stringify(arr));
             // jiesuan();
             return;
         }
-    } )
+    })
     sum();
     check();
 })
 
 
 //结算封装
-function sum(){
+function sum() {
     var count = 0;//数量
     var money = 0;//总金额
     //结算的是被选中的复选框
-    $(".ck:checked").each(function(){
+    $(".ck:checked").each(function () {
         count += Number($(this).parent().parent().find(".shop-count").html());
         var s = $(this).parent().parent().find(".sumprice").html();
         s = s.split("￥")[1];
         money += parseFloat(parseInt(s));
     })
-    $(".pr").html( `￥${money}.00` );
-    $(".vip").html( money );
+    $(".pr").html(`￥${money}.00`);
+    $(".vip").html(money);
 }
