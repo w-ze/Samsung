@@ -30,7 +30,7 @@ var deff = $.ajax({
 })
 deff.done(function (json) {
     for (var i in json) {
-        $("nav .nav .left").append($(`<li>${json[i].name}</li>`))
+        $("nav .nav .left").append($(`<li name="${i}">${json[i].name}</li>`))
         // console.log(json[i].name)
     }
     $("nav .nav .left").on("mouseenter", "li", function () {
@@ -41,7 +41,7 @@ deff.done(function (json) {
 
                 for (var j in json[i].list) {
                     $("nav .bar .l ol").append($(` <li>
-                                                        <a href="javascript:;">
+                                                        <a href="item.html?panme=${json[i].list[j].id}">
                                                             <img src="${json[i].list[j].src}" alt="">
                                                             <p>${json[i].list[j].name}</p>
                                                         </a>
@@ -74,6 +74,17 @@ deff.done(function (json) {
     })
 })
 
+
+
+//bar跳转list页面
+$("nav .nav .left").on("click","li",function(){
+    location.href = `list.html?type=${$(this).attr("name")}`
+})
+
+$("nav .nav .left").on("mouseenter","li",function(){
+    $(this).css("cursor","pointer")
+})
+ 
 // 登录用户名显示
 var uname = $.cookie("loginuser");
 if(uname){
@@ -128,7 +139,7 @@ var pid = str.split("=")[1]
 console.log(pid)
 var deff1 = $.ajax({
     type: "get",
-    url: "json/list.json?_id=" + new Date().getDate(),
+    url: "json/item.json?_id=" + new Date().getDate(),
     async: "true"
 })
 var ind = 0;
@@ -248,4 +259,5 @@ $("main .right .shop").click(function () {
         arr.push(json);
     }
     localStorage.setItem("shoplist", JSON.stringify(arr));
+    alert("已加入购物车")
 })

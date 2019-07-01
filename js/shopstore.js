@@ -31,7 +31,7 @@ var deff = $.ajax({
 })
 deff.done(function(json){
     for(var i in json){
-        $("nav .nav .left").append($(`<li>${json[i].name}</li>`))
+        $("nav .nav .left").append($(`<li name=${i}>${json[i].name}</li>`))
         console.log(json[i].name)
     }
     $("nav .nav .left").on("mouseenter","li",function(){
@@ -42,7 +42,7 @@ deff.done(function(json){
                 
                 for(var j in json[i].list){
                     $("nav .bar .l ol").append($(` <li>
-                                                        <a href="javascript:;">
+                                                        <a href="item.html?panme=${json[i].list[j].id}">
                                                             <img src="${json[i].list[j].src}" alt="">
                                                             <p>${json[i].list[j].name}</p>
                                                         </a>
@@ -74,6 +74,17 @@ deff.done(function(json){
         });
     })
 })
+
+//bar跳转list页面
+$("nav .nav .left").on("click","li",function(){
+    location.href = `list.html?type=${$(this).attr("name")}`
+})
+
+$("nav .nav .left").on("mouseenter","li",function(){
+    $(this).css("cursor","pointer")
+})
+ 
+
 
 
 

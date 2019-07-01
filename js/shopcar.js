@@ -30,7 +30,7 @@ var deff = $.ajax({
 })
 deff.done(function (json) {
     for (var i in json) {
-        $("nav .nav .left").append($(`<li>${json[i].name}</li>`))
+        $("nav .nav .left").append($(`<li name=${i}>${json[i].name}</li>`))
         // console.log(json[i].name)
     }
     $("nav .nav .left").on("mouseenter", "li", function () {
@@ -73,6 +73,16 @@ deff.done(function (json) {
         });
     })
 })
+
+//bar跳转list页面
+$("nav .nav .left").on("click","li",function(){
+    location.href = `list.html?type=${$(this).attr("name")}`
+})
+
+$("nav .nav .left").on("mouseenter","li",function(){
+    $(this).css("cursor","pointer")
+})
+ 
 
 // 登录用户名显示
 var uname = $.cookie("loginuser");
@@ -163,7 +173,7 @@ $(".updateCount").click(function () {
     })
     // console.log(vip)
     check();
-    // sum();
+    sum();
 })
 
 
