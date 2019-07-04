@@ -82,7 +82,7 @@
 		"type": [
 			{
 				"name": "笔记本电脑",
-				"list" :[
+				"list": [
 					"笔记本电脑",
 					"玄龙MR",
 					"玄龙骑士",
@@ -92,7 +92,7 @@
 			},
 			{
 				"name": "平板电脑",
-				"list" :[
+				"list": [
 					"Galaxy Tab S",
 					"Galaxy Tab A",
 					"盖乐世 Tab E"
